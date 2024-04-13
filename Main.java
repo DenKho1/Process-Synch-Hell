@@ -107,7 +107,6 @@ class Signup extends Thread
         {
             int n1=cittype(0);
             int n2=cittype(1);
-            System.out.println(shared.team[shared.count][0]+","+shared.team[shared.count][1]+","+shared.team[shared.count][2]+","+shared.team[shared.count][3]);
             System.out.println("team "+shared.count+" is ready and now launching to battle (sc: "+ n2 +"  | rc: " + n1 +" )");
             shared.supcount=0;
             shared.count++;
